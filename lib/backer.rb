@@ -8,6 +8,7 @@ class Backer
 
   def back_project(parameter)
     @backed_projects = parameter
+    project.backers = self
   end
 
   def backed_projects
